@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="utf-8" />
+    <meta name="description" content="This is where your description goes" />
+    <meta name="keywords" content="one, two, three" />
+
+    <title>Shiny Pokemon Check App</title>
+
+    <!-- external CSS link -->
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Hello, world! (index.html)</h1>
-    <input id="userName" type="text" name="" placeholder="Enter Name">
-    <button id="clickMe" type="button" name="button">Click Me</button>
-    <h2 id="personName"></h2>
-    <h2 id="personStatus"></h2>
-    <h2 id="personOccupation"></h2>
-    <script type="text/javascript" src="/js/main.js"></script>
+    <h1>Pokemon Sprite Viewer</h1>
+    <h1 class="choose">Choose your Pokemon:</h1>
+    <div class="formz">
+      <input type="text" name="" value="" />
+      <button type="button" name="button">Get Pokemon</button>
+      <button id="lucky" type="button" name="button">Feelin' Lucky?</button>
+    </div>
+    <h2>Name?</h2>
+    <div class="spriteContainer">
+      <img id="normal" src="" alt="" />
+      <img id="shiny" src="" alt="" />
+    </div>
+    <h3>Type?</h3>
+
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
